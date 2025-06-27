@@ -1,7 +1,7 @@
 name: package_a1
 description: "A Flutter package providing essential utilities and components for Flutter applications."
 version: 1.0.0
-homepage: https://github.com/yourusername/package_a1
+homepage: https://github.com/thanakhi/package-a
 
 environment:
   sdk: ^3.8.1
