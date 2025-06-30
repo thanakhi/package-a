@@ -26,6 +26,7 @@ class Calculator {
   /// final result = calculator.addOne(5); // Returns 6
   /// ```
   int addOne(int value) => value + 1;
+  int addTwo(int value) => value + 2;
 
   /// Returns the sum of [a] and [b].
   ///
