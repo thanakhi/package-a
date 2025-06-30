@@ -73,5 +73,24 @@ void main() {
         expect(calculator.multiply(1, 5), 5);
       });
     });
+
+    group('processWithDataManager', () {
+      test('processes data using DataManager from package-b', () {
+        final result = calculator.processWithDataManager([1, 2, 3]);
+        
+        // Values [1, 2, 3] become [2, 3, 4] after addOne, sum = 9
+        expect(result.sum, equals(9));
+        expect(result.count, equals(3));
+        expect(result.average, equals(3.0));
+      });
+
+      test('handles empty list correctly', () {
+        final result = calculator.processWithDataManager([]);
+        
+        expect(result.sum, equals(0));
+        expect(result.count, equals(0));
+        expect(result.average, equals(0.0));
+      });
+    });
   });
 }

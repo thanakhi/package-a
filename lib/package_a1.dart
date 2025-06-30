@@ -14,6 +14,8 @@
 /// ```
 library;
 
+import 'package:package_b/package_b.dart';
+
 /// A simple calculator utility class.
 ///
 /// Provides basic mathematical operations and utility functions.
@@ -27,6 +29,16 @@ class Calculator {
   /// ```
   int addOne(int value) => value + 1;
   int addTwo(int value) => value + 2;
+
+  /// Creates a DataManager instance and processes calculated values.
+  ///
+  /// This method demonstrates how package-a can use package-b functionality.
+  DataResult processWithDataManager(List<int> values) {
+    final dataManager = DataManager();
+    // First add one to each value, then process the data
+    final processedValues = values.map((value) => addOne(value)).toList();
+    return dataManager.processData(processedValues);
+  }
 
   /// Returns the sum of [a] and [b].
   ///
