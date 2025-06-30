@@ -1,3 +1,7 @@
+## 1.0.6
+
+ - **CHORE**: cleanup and remove unused files, update dependencies.
+
 ## 1.0.5
 
  - **DOCS**: add new feature example to README.
