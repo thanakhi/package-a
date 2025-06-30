@@ -1,4 +1,4 @@
-import 'package:package_a1/package_a1.dart';
+import 'package:package_a/package_a.dart';
 
 void main() {
   // Create an instance of the Calculator

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:package_a1/package_a1.dart';
+import 'package:package_a/package_a.dart';
 
 void main() {
   group('Calculator', () {
@@ -77,7 +77,7 @@ void main() {
     group('processWithDataManager', () {
       test('processes data using DataManager from package-b', () {
         final result = calculator.processWithDataManager([1, 2, 3]);
-        
+
         // Values [1, 2, 3] become [2, 3, 4] after addOne, sum = 9
         expect(result.sum, equals(9));
         expect(result.count, equals(3));
@@ -86,7 +86,7 @@ void main() {
 
       test('handles empty list correctly', () {
         final result = calculator.processWithDataManager([]);
-        
+
         expect(result.sum, equals(0));
         expect(result.count, equals(0));
         expect(result.average, equals(0.0));

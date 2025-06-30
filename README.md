@@ -15,7 +15,7 @@ Add this package to your Flutter project by adding it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  package_a1: ^1.0.0
+  package_a: ^1.0.0
 ```
 
 Then run:
@@ -28,12 +28,12 @@ flutter pub get
 Import the package in your Dart code:
 
 ```dart
-import 'package:package_a1/package_a1.dart';
+import 'package:package_a/package_a.dart';
 
 // Example usage
 void main() {
-  // Use package_a1 functionality here
-  print('Hello from Package A1!');
+  // Use package_a functionality here
+  print('Hello from Package A!');
 }
 ```
 

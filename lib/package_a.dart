@@ -1,11 +1,11 @@
-/// Package A1 - A Flutter package providing essential utilities and components.
+/// Package A - A Flutter package providing essential utilities and components.
 ///
-/// This library exports all the public APIs of the package_a1 package.
+/// This library exports all the public APIs of the package_a package.
 /// Import this library to access all available functionality.
 ///
 /// Example:
 /// ```dart
-/// import 'package:package_a1/package_a1.dart';
+/// import 'package:package_a/package_a.dart';
 ///
 /// void main() {
 ///   final calculator = Calculator();

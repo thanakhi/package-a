@@ -1,4 +1,4 @@
-name: package_a1
+name: package_a
 description: "A Flutter package providing essential utilities and components for Flutter applications."
 version: 1.0.0
 homepage: https://github.com/thanakhi/package-a
@@ -12,9 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   package_b:
-    git:
-      url: https://github.com/thanakhi/package-b.git
-      ref: main
+    path: ../package-b
 
 dev_dependencies:
   flutter_test:
