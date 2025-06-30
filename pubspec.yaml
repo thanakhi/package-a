@@ -1,6 +1,6 @@
 name: package_a
 description: "A Flutter package providing essential utilities and components for Flutter applications."
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/thanakhi/package-a
 publish_to: none
 

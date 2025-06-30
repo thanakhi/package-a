@@ -1,3 +1,7 @@
+## 1.0.5
+
+ - **DOCS**: add new feature example to README.
+
 ## 1.0.4
 
  - Bump "package_a" to `1.0.4`.
