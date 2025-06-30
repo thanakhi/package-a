@@ -12,7 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   package_b:
-    path: ../package-b
+    git:
+      url: https://github.com/thanakhi/package-b.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
