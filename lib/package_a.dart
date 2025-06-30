@@ -47,6 +47,15 @@ class Calculator {
   /// ```
   int addTen(int value) => value + 10;
 
+  /// Returns [value] multiplied by 3.
+  ///
+  /// Example:
+  /// ```dart
+  /// final calculator = Calculator();
+  /// final result = calculator.multiplyByThree(5); // Returns 15
+  /// ```
+  int multiplyByThree(int value) => value * 3;
+
   /// Creates a DataManager instance and processes calculated values.
   ///
   /// This method demonstrates how package-a can use package-b functionality.
