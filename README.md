@@ -46,3 +46,4 @@ This package is actively maintained and welcomes contributions.
 - **License**: This project is licensed under the MIT License - see LICENSE file for details
 
 For more information about Flutter package development, visit the [Flutter documentation](https://flutter.dev/to/develop-packages).
+# New feature example
