@@ -28,7 +28,24 @@ class Calculator {
   /// final result = calculator.addOne(5); // Returns 6
   /// ```
   int addOne(int value) => value + 1;
+
+  /// Returns [value] plus 2.
+  ///
+  /// Example:
+  /// ```dart
+  /// final calculator = Calculator();
+  /// final result = calculator.addTwo(5); // Returns 7
+  /// ```
   int addTwo(int value) => value + 2;
+
+  /// Returns [value] plus 10.
+  ///
+  /// Example:
+  /// ```dart
+  /// final calculator = Calculator();
+  /// final result = calculator.addTen(5); // Returns 15
+  /// ```
+  int addTen(int value) => value + 10;
 
   /// Creates a DataManager instance and processes calculated values.
   ///
